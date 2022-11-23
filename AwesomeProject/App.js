@@ -36,7 +36,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.buttons}>
-        // makes an button that calls the test function on press
+        {/* makes an button that calls the test function on press */}
         <Button style={styles.button} onPress={() => test()} title="Show DATA"/>
       </View>
     </View>
